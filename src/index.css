@@ -795,6 +795,45 @@ width:fit-content;
   }
 }
 
+@media screen and (max-width:592px){
+  .header{
+    padding:0;
+  }
+
+  #home .row{
+    gap:20px;;
+    flex-direction:column;
+  }
+
+  #home h1{
+    margin-top:3rem;
+    margin-bottom: 20px;
+  }
+
+  #home p{
+    margin-bottom:2rem;
+  }
+
+  .cta{
+    flex-direction: row;
+    gap:2rem;
+  }
+
+  #home img{
+    width:75%;
+    height:75%;
+    padding-left:5rem;
+  }
+
+  #about .row{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about .col-4{
+    width:75%;
+  }
+}
 
 @media screen and (max-width:520px){
   #menu .col-4{
