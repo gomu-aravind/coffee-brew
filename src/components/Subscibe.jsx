@@ -65,7 +65,7 @@ export default function Subscribe() {
             <div className="subscribe-form">
               {success && (
                 <div className="alert alert-primary" role="alert">
-                  <h5>You have subscribe to our newsletter.</h5>
+                  <h5>You have subscribed to our newsletter.</h5>
                   <span>You will recieve further updates on your email</span>
                 </div>
               )}
