@@ -763,8 +763,22 @@ width:fit-content;
     position: absolute;
   }
 
+  #about .container{
+    padding-top: 1rem;
+  }
+
   #about .row{
-    gap:0;
+    gap:3rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about h3{
+    margin-bottom: 2rem;
+  }
+
+  #about .col-4{
+    width:75%;
   }
 
   #menu{
@@ -825,14 +839,14 @@ width:fit-content;
     padding-left:5rem;
   }
 
-  #about .row{
-    flex-direction: column;
-    align-items: center;
+
+  #featured{
+    margin:2rem auto;
   }
 
-  #about .col-4{
-    width:75%;
-  }
+ 
+
+  
 }
 
 @media screen and (max-width:520px){
