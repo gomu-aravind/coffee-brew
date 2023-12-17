@@ -305,7 +305,7 @@ margin-bottom: 5rem;
 }
 
 #subscribe .container{
-  padding:6rem 0;
+  padding-top:6rem;
   width:75%;
 }
 
@@ -434,7 +434,7 @@ margin-bottom: 5rem;
   background-color: var(--primary-bg-color);
   color: var(--secondary-text-color);
   padding: 40px 0;
-  margin-top: 5rem;
+  margin-top:3rem;
 }
 
 .footer h6{
@@ -690,7 +690,11 @@ width:fit-content;
 }
 
 /* ------------------------------------------------- */
-
+@media screen and (max-width:1200px){
+  .footer{
+    margin-top: 4rem;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .cart-btn {
@@ -799,9 +803,13 @@ width:fit-content;
   #subscribe .col-4{
     width:auto;
   }
+  .footer{
+    margin-top:1.2rem;
+  }
   #checkout .card{
     width:auto;
   }
+
 }
 
 @media screen and (max-width:592px){
